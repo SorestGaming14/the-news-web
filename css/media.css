@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header__menu {
+        flex-wrap: wrap;
+        max-width: 226px;
+        width: 100%;
+    }
+}
+@media (Max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
